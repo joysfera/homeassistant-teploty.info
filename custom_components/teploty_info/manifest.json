@@ -1,0 +1,12 @@
+{
+  "domain": "teploty_info",
+  "name": "Teploty.info",
+  "codeowners": ["@joysfera"],
+  "config_flow": true,
+  "documentation": "https://github.com/joysfera/homeassistant-teploty.info#readme",
+  "integration_type": "hub",
+  "issue_tracker": "https://github.com/joysfera/homeassistant-teploty.info/issues",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}

@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Teploty.info",
+        "description": "Enter the login and API key shown in Teploty.info under Passwords and email.",
+        "data": {
+          "username": "Teploty.info login",
+          "api_key": "API key"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Update Teploty.info API key",
+        "description": "Enter a new API key for {username}.",
+        "data": {
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The login or API key was rejected.",
+      "cannot_connect": "Could not connect to Teploty.info.",
+      "invalid_response": "Teploty.info returned an unexpected response."
+    },
+    "abort": {
+      "already_configured": "This Teploty.info account is already configured.",
+      "reauth_successful": "The API key was updated."
+    }
+  }
+}
