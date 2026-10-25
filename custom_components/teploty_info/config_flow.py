@@ -7,7 +7,6 @@ from typing import Any
 import voluptuous as vol
 
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
-from homeassistant.const import CONF_USERNAME
 from homeassistant.helpers import selector
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
@@ -16,7 +15,7 @@ from .api import (
     TeplotyInfoAuthError,
     TeplotyInfoConnectionError,
 )
-from .const import CONF_API_KEY, DOMAIN
+from .const import CONF_API_KEY, CONF_USERNAME, DOMAIN
 
 
 class TeplotyInfoConfigFlow(ConfigFlow, domain=DOMAIN):

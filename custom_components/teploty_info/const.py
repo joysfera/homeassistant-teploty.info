@@ -4,5 +4,6 @@ from homeassistant.const import Platform
 
 DOMAIN = "teploty_info"
 API_URL = "https://teploty.info/ha_rest.php"
+CONF_USERNAME = "username"
 CONF_API_KEY = "api_key"
 PLATFORMS = [Platform.SENSOR]
